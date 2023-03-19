@@ -14,7 +14,7 @@
 :root{
     --color-bg: #27262c;
     --color-bg-variant:#2b4779;
-    --color-primary:#14a49f;
+    --color-primary:#2dace2;
     --color-primary-variant:#123534;
     --color-white:#f5f1e9;
     --color-light:#494753;
@@ -100,3 +100,22 @@ img{
     object-fit: cover;
 }
 
+/*========MEDIA QUERYS MEDIUM =========*/
+
+@media screen and (max-width:1024px) {
+    .container{
+        width: var(--container-width-md)
+    }
+    section{
+        margin-top:6rem
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        width: var(--container-width-sm)
+    }
+    section>h2{
+        margin-bottom:2rem
+    }
+}
