@@ -35,9 +35,9 @@ const About = () => {
             <article className="about__card">
               <MdWorkOutline className="about__icon" />
               <h5>Projects</h5>
-              <small>3 programing projects</small>
-              <small>10+ photography projects</small>
-              <small>100+ PT clients</small>
+              <small>3 Fullstack projects</small>
+              <small>15+ photography projects</small>
+              <small>200+ PT clients</small>
             </article>
           </div>
           <p>Driven personal trainer and photographer transitioning into web development after completing a full-stack bootcamp. With excellent teamwork and interpersonal skills from diverse experiences, I offer valuable assets to the software engineering field. Motivated and detail-oriented, I am eager to apply my passion for problem-solving, innovation, and strong work ethic in a web development role, making a significant impact on projects while delivering top-quality solutions.</p>

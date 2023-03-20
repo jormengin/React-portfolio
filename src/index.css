@@ -13,7 +13,7 @@
 
 :root{
     --color-bg: #27262c;
-    --color-bg-variant:#2b4779;
+    --color-bg-variant:#2b436e;
     --color-primary:#2dace2;
     --color-primary-variant:#123534;
     --color-white:#f5f1e9;
@@ -26,6 +26,7 @@
 }
 html{
     scroll-behavior: smooth;
+    background: var(--color-bg);
 }
 
 ::-webkit-scrollbar{
@@ -37,6 +38,13 @@ body {
     color: var(--color-white);
     line-height: 1.7;
     font-family: 'League Spartan', sans-serif;
+    background: radial-gradient(circle, #2b2a31 15%, transparent 16%);
+        background-size: 1em 1em;
+        background-color: #27262c;
+        opacity: 1;
+        background: rgb(39,38,44);
+background: linear-gradient(180deg, rgba(39,38,44,1) 0%, rgba(26,25,29,1) 37%, rgba(66,64,74,1) 100%);
+        
 }
 
 .container{
@@ -52,7 +60,6 @@ h1{
 }
 section{
     margin-top:8rem;
-    height: 100vh;
 }
 
 section>h2, section>h5{

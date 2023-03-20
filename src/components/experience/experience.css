@@ -1,0 +1,90 @@
+.experience__container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2rem;
+}
+
+.experience__container > div{
+    background-color: var(--color-bg-variant);
+    padding: 2.4rem 3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition)
+}
+
+.experience__container > div:hover{
+    background-color: transparent;
+    border-color: var(--color-primary);
+    cursor: default;
+}
+
+.experience__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary)
+}
+
+.experience__content{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    row-gap: 2rem;
+}
+
+.experience__details{
+    display: flex;
+    flex-direction: row;
+}
+.experience__details h4{
+    font-size: 2rem;
+}
+.experience__logos {
+    display: flex;
+   align-items: baseline;
+   gap:0.3rem;
+    margin-left: 10px; /* Optional: Add some space between the icon and text */
+  }
+
+  .experience__logos small{
+    font-size: larger;
+  }
+
+  .experience_icon{
+    color: var(--color-primary);
+  }
+
+/*========MEDIA QUERYS MEDIUM =========*/
+
+@media screen and (max-width:1024px) {
+  .experience__container{
+    grid-template-columns: 1fr;
+  }
+  .experience__container >div{
+    width: 80%;
+    padding:2rem;
+    margin:0 auto;
+  }
+  .experience__content{
+    padding: 1rem;
+  }
+ }
+ 
+ @media screen and (max-width:600px) {
+   .experience__container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+   }
+   .experience__container>div{
+    width: 95%;
+    padding:10px;
+   }
+   .experience__details h4{
+    font-size: 1.5rem;
+}
+.experience__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+ }
+ 
