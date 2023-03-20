@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import {CgShutterstock} from 'react-icons/cg'

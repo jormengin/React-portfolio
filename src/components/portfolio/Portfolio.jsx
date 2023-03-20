@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "./portfolio.css";
 import guessr from "../../assets/guessr.png";

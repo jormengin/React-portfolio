@@ -6,6 +6,7 @@ import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { GrNode } from "react-icons/gr";
 import { SiMongodb, SiHandlebarsdotjs, SiPostman } from "react-icons/si";
+import {FiCode} from 'react-icons/fi'
 
 const Experience = () => {
   return (
@@ -99,6 +100,15 @@ const Experience = () => {
             </h4>
             <div className="experience__logos">
               <small className="text-ligth">Postman</small>
+              <BsFillPatchCheckFill className="experience_icon"/>
+            </div>
+          </article>
+          <article className="experience__details">
+            <h4>
+              <FiCode />
+            </h4>
+            <div className="experience__logos">
+              <small className="text-ligth">ExpressJS</small>
               <BsFillPatchCheckFill className="experience_icon"/>
             </div>
           </article>
