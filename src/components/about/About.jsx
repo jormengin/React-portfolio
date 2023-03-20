@@ -21,23 +21,23 @@ const About = () => {
             <article className="about__card">
               <BiTimeFive className="about__icon" />
               <h5>Experience</h5>
-              <small>
-                1 year of learning programming
-                <small> 4+ years of photgraphy</small>
-                <small>6+ years of client-based work</small>
-              </small>
+              <small> 1 learning programming </small>
+                <small> 4+ years of photography</small>
+                <small>6+ years of 1-to-1 PT</small>
+             
             </article>
             <article className="about__card">
               <AiOutlineEnvironment className="about__icon" />
-              <h5>Location</h5>
+              <h5>Locations</h5>
               <small>IronHack Barcelona</small>
+              <small>Amsterdam</small>
             </article>
             <article className="about__card">
               <MdWorkOutline className="about__icon" />
               <h5>Projects</h5>
-              <small>3 Frontend/Backend projects</small>
+              <small>3 programing projects</small>
               <small>10+ photography projects</small>
-              <small>100+ 1-to-1 clients</small>
+              <small>100+ PT clients</small>
             </article>
           </div>
           <p>Driven personal trainer and photographer transitioning into web development after completing a full-stack bootcamp. With excellent teamwork and interpersonal skills from diverse experiences, I offer valuable assets to the software engineering field. Motivated and detail-oriented, I am eager to apply my passion for problem-solving, innovation, and strong work ethic in a web development role, making a significant impact on projects while delivering top-quality solutions.</p>
