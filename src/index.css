@@ -40,9 +40,10 @@ body {
     color: var(--color-white);
     line-height: 1.7;
     font-family: 'League Spartan', sans-serif;
-        background: rgb(39,38,44);
-background: linear-gradient(180deg, rgba(39,38,44,1) 0%, rgba(26,25,29,1) 37%, rgb(48, 46, 54) 100%);
-        
+    background: #141E30;
+    background: -webkit-linear-gradient(#141E30, #1c2e42);
+    background: linear-gradient(#141E30, #1c2e42);
+    
 }
 
 .container{
