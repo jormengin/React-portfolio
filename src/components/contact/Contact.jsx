@@ -1,3 +1,4 @@
+// @ts-nocheck
 /* eslint-disable react/jsx-no-target-blank */
 import React, { useRef,useState } from "react";
 import "./contact.css";
@@ -12,12 +13,12 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm(
-        "service_iq0x0f8",
-        "template_8fitsq3",
-        form.current,
-        "xUuCutitjN6Ey88-U"
-      )
+    .sendForm(
+      process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_TEMPLATE_ID,
+      form.current,
+      process.env.REACT_APP_USER_ID
+    )
       .then(() => {
         setConfirmationMessage(true);
         setTimeout(() => {

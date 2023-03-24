@@ -1,8 +1,15 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "./portfolio.css";
-import guessr from "../../assets/guessr.png";
-import devault from "../../assets/devault.png"
+import guessr from "../../assets/guessrmock.png";
+import devault from "../../assets/devault.png";
+import wip from "../../assets/wip.jpg";
+import { AiFillHtml5 } from "react-icons/ai";
+import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
+import { SiHandlebarsdotjs } from "react-icons/si";
+import { FiCode} from 'react-icons/fi';
+import { SiMongodb } from "react-icons/si";
+import { GrNode } from "react-icons/gr";
 
 const About = () => {
   return (
@@ -13,7 +20,12 @@ const About = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={guessr} alt="" />
+            <div className="portfolio__item-info">
+              <p>Technologies used:</p>
+              <p><AiFillHtml5 /> <IoLogoCss3 />  <IoLogoJavascript/></p>
+            </div>
           </div>
+
           <h3>Guessr - DOM logic game</h3>
           <div className="portfolio__item-cta">
             <a
@@ -35,8 +47,12 @@ const About = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={devault} alt="" />
+            <div className="portfolio__item-info">
+              <p>Technologies used:</p>
+              <p><AiFillHtml5 /> <IoLogoCss3 />  <IoLogoJavascript/> <SiHandlebarsdotjs/><br /> <FiCode /><SiMongodb /><GrNode /></p>
+            </div>
           </div>
-          <h3>Devault - Fullstack dev tool platform </h3>
+          <h3>Devault - Dev Tools platform </h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/deVault-io/devault"
@@ -56,9 +72,12 @@ const About = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={guessr} alt="" />
+            <img src={wip} alt="" />
+            <div className="portfolio__item-info">
+              <p>Fullstack app using MERN stack coming soon</p>
+            </div>
           </div>
-          <h3>Guessr - DOM logic game</h3>
+          <h3>atmine - Fullstack rental webapp</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/jormengin/Guessr"

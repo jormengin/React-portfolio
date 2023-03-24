@@ -31,7 +31,11 @@
     background: var(--color-primary);
     color:var(--color-primary);
 }
-
+.client__position{
+    font-weight: 200;
+    font-style: oblique;
+    opacity: 0.8;
+}
 
 /*========MEDIA QUERYS MEDIUM =========*/
 
