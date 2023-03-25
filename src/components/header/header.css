@@ -10,11 +10,24 @@ header {
     position: relative;
 }
 /*========CTA========*/
-.cta{
+.cta,.cta .btn{
+    display: flex;
     margin-top: 2.5rem;
     display: flex;
     gap: 1rem;
     justify-content: center;
+    align-items: baseline;
+}
+.cta .btn{
+    gap: 0.5rem;
+    align-items: stretch;
+}
+.pdflogo{
+    font-size: 1.5rem;
+    color: var(--color-primary);
+}
+.pdflogo:hover{
+    color: #f40f02;
 }
 
 /*========HEADER SOCIALS========*/
