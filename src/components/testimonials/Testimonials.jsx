@@ -46,7 +46,7 @@ const About = () => {
             <img src={guille} alt="avatar1" />
           </div>
           <h5 className="client__name">Guille García</h5>
-          <h5 className="client__position">Product onwer at Reviewpro</h5>
+          <h5 className="client__position">Director of Product at Reviewpro</h5>
           <small className="client__review">
             I had the pleasure of studying with Jorge at Ironhack's Web
             Development Bootcamp. He is an incredibly smart and diligent
