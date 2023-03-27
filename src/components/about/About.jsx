@@ -21,7 +21,7 @@ const About = () => {
             <article className="about__card">
               <BiTimeFive className="about__icon" />
               <h5>Experience</h5>
-              <small> 1 learning programming </small>
+              <small> 1 year learning programming </small>
                 <small> 4+ years of photography</small>
                 <small>6+ years of 1-to-1 PT</small>
              
